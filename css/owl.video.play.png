@@ -38,6 +38,8 @@ img.emoji {
 <link rel='stylesheet' id='wp-block-library-css'  href='http://localhost:81/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=5.8.2' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://localhost:81/wordpress/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.3' type='text/css' media='all' />
 <link rel='stylesheet' id='ryancv-fonts-css'  href='//fonts.googleapis.com/css?family=Poppins%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='ryancv_heading_font-css'  href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&#038;subset=vietnamese,cyrillic,greek,latin-ext,latin,cyrillic-ext,greek-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='ryancv_paragraph_font-css'  href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&#038;subset=vietnamese,cyrillic,greek,latin-ext,latin,cyrillic-ext,greek-ext' type='text/css' media='all' />
 <link rel='stylesheet' id='ryancv-style-css'  href='http://localhost:81/wordpress/wp-content/themes/ryancv/style.css?ver=5.8.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ionicons-css'  href='http://localhost:81/wordpress/wp-content/themes/ryancv/assets/css/ionicons.css?ver=5.8.2' type='text/css' media='all' />
 <link rel='stylesheet' id='magnific-popup-css'  href='http://localhost:81/wordpress/wp-content/themes/ryancv/assets/css/magnific-popup.css?ver=5.8.2' type='text/css' media='all' />
@@ -56,7 +58,7 @@ img.emoji {
             /* <![CDATA[ */
             var rcewpp = {
                 "ajax_url":"http://localhost:81/wordpress/wp-admin/admin-ajax.php",
-                "nonce": "81240650ae",
+                "nonce": "21270e11a1",
                 "home_url": "http://localhost:81/wordpress/",
                 "settings_icon": 'http://localhost:81/wordpress/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
                 "settings_hover_icon": 'http://localhost:81/wordpress/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
@@ -327,7 +329,21 @@ img.emoji {
 		color: #646464;
 	}
 	
+		/*
+		Heading Font Family
+	*/
+
+	.content .title {
+		font-family: 'Roboto';
+	}
 	
+		/*
+		Text Font Family
+	*/
+
+	body {
+		font-family: 'Roboto';
+	}
 	
 	
 	
@@ -626,15 +642,15 @@ img.emoji {
 				<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 					<div class="service-item">
 													<div class="icon">
-								<span class="fa fa-book"></span>
+								<span class="fa fa-chrome"></span>
 							</div>
 																			<div class="name">
 								<span >
-									Enter name								</span>
+									WEBSITE DESIGNING								</span>
 							</div>
 																			<div class="desc">
 								<div >
-									Enter description								</div>
+									<p>Form Website Hosting to Making it Super Beautiful &amp; SEO AND more....</p>								</div>
 							</div>
 											</div>
 				</div>
@@ -645,186 +661,6 @@ img.emoji {
 			
 		</div>
 		
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-18b4760 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="18b4760" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-094a289" data-id="094a289" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-35e1624 elementor-widget elementor-widget-ryancv-fun-facts" data-id="35e1624" data-element_type="widget" data-widget_type="ryancv-fun-facts.default">
-				<div class="elementor-widget-container">
-			
-		<!-- Fun Fact -->
-		<div class="content fuct">
-
-						<!-- title -->
-			<div class="title">
-				<span >Fun Facts</span>
-			</div>
-			
-						<!-- content -->
-			<div class="row fuct-items">
-
-								<!-- fuct item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="fuct-item">
-												<div class="icon">
-							<span class="fa fa-music"></span>
-						</div>
-																		<div class="name">
-							<span >
-								80 Albumes Listened							</span>	
-						</div>
-											</div>
-				</div>
-								<!-- fuct item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="fuct-item">
-												<div class="icon">
-							<span class="fa fa-trophy"></span>
-						</div>
-																		<div class="name">
-							<span >
-								15 Awards Won							</span>	
-						</div>
-											</div>
-				</div>
-								<!-- fuct item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="fuct-item">
-												<div class="icon">
-							<span class="fa fa-coffee"></span>
-						</div>
-																		<div class="name">
-							<span >
-								1 000 Cups Of Coffee							</span>	
-						</div>
-											</div>
-				</div>
-								<!-- fuct item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="fuct-item">
-												<div class="icon">
-							<span class="fa fa-flag"></span>
-						</div>
-																		<div class="name">
-							<span >
-								10 Countries Visited							</span>	
-						</div>
-											</div>
-				</div>
-				
-				<div class="clear"></div>
-			</div>
-			
-		</div>
-		
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0452329 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0452329" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-07fff22" data-id="07fff22" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-24493e4 elementor-widget elementor-widget-ryancv-clients" data-id="24493e4" data-element_type="widget" data-widget_type="ryancv-clients.default">
-				<div class="elementor-widget-container">
-			
-		<!-- Clients -->
-		<div class="content clients">
-
-						<!-- title -->
-			<div class="title">
-				<span >Clients</span>
-			</div>
-			
-						<!-- content -->
-			<div class="row client-items">
-
-												<!-- client item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="client-item">
-						<div class="image">
-														<a  href="#">
-															<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/client_2-92x92.png" alt="Client 1" />
-														</a>
-													</div>
-					</div>
-				</div>
-																<!-- client item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="client-item">
-						<div class="image">
-														<a  href="#">
-															<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/client_1-92x92.png" alt="Client 2" />
-														</a>
-													</div>
-					</div>
-				</div>
-																<!-- client item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="client-item">
-						<div class="image">
-														<a  href="#">
-															<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/client_4-92x92.png" alt="Client 3" />
-														</a>
-													</div>
-					</div>
-				</div>
-																<!-- client item -->
-				<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-					<div class="client-item">
-						<div class="image">
-														<a  href="#">
-															<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/client_1-92x92.png" alt="Client 4" />
-														</a>
-													</div>
-					</div>
-				</div>
-								
-				<div class="clear"></div>
-			</div>
-					</div>
-
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-c6239ff elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="c6239ff" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-73fe5b3" data-id="73fe5b3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-ff09fc9 elementor-widget elementor-widget-ryancv-custom-text" data-id="ff09fc9" data-element_type="widget" data-widget_type="ryancv-custom-text.default">
-				<div class="elementor-widget-container">
-			
-		<!-- Custom Text -->
-		<div class="content custom-text">
-
-						<!-- title -->
-			<div class="title">
-				<span >Custom Text</span>
-			</div>
-			
-						<!-- content -->
-			<div class="row border-line-v">
-				<div class="col col-m-12 col-t-12 col-d-12">
-					<div class="post-box single-post-text">
-						<div class="blog-content">
-							<div ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in. Maecenas porttitor, est et malesuada congue, ligula elit fermentum massa, sit amet porta odio est at velit. Sed nec turpis neque. Fusce at mi felis, sed interdum tortor.</p></div>
-						</div>
-					</div>
-				</div>
-			</div>
-					</div>
-
 				</div>
 				</div>
 					</div>
@@ -885,67 +721,84 @@ img.emoji {
 			</div>
 			
 						<div class="resume-items">
-								<div class="resume-item border-line-h active">
+								<div class="resume-item border-line-h ">
 										<div class="image">
-						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_3.png" alt="" />
+						<img src="" alt="" />
 					</div>
 															<div class="date">
 						<span >
-							2013 - Present						</span>
+							Jan'22-Feb'22						</span>
 					</div>
 															<div class="name">
 						<span >
-							Art Director						</span>
+							PLCS product team						</span>
 					</div>
 															<div class="company">
 						<span >
-							Facebook Inc.						</span>
+							Bajaj Finersv						</span>
 					</div>
 															<div class="single-post-text">
 						<div >
-							<p>Collaborate with creative and development teams on the execution of ideas.</p>						</div>
+							<p>Kolkata</p>						</div>
 					</div>
 									</div>
+								<div class="resume-item border-line-h active">
+										<div class="image">
+						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_2.png" alt="" />
+					</div>
+															<div class="date">
+						<span >
+							2020-Present						</span>
+					</div>
+															<div class="name">
+						<span >
+							Managing Head						</span>
+					</div>
+															<div class="company">
+						<span >
+							Unknown Rivals Esports						</span>
+					</div>
+														</div>
 								<div class="resume-item border-line-h ">
 										<div class="image">
 						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_4.png" alt="" />
 					</div>
 															<div class="date">
 						<span >
-							2011 - 2012						</span>
+							2021 - 2022						</span>
 					</div>
 															<div class="name">
 						<span >
-							Front-End Developer						</span>
+							Community Manager 						</span>
 					</div>
 															<div class="company">
 						<span >
-							Google Inc.						</span>
+							Esports Federation of India						</span>
 					</div>
 															<div class="single-post-text">
 						<div >
-							<p>Monitored technical aspects of the front-end delivery for projects.</p>						</div>
+							<p>Maintaining the Events and Community of Call of Duty Mobile as a volunteer.</p>						</div>
 					</div>
 									</div>
 								<div class="resume-item border-line-h ">
 										<div class="image">
-						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_2.png" alt="" />
+						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_3.png" alt="" />
 					</div>
 															<div class="date">
 						<span >
-							2009 - 2010						</span>
+							2019 - 2020						</span>
 					</div>
 															<div class="name">
 						<span >
-							Senior Developer						</span>
+							Tech Support						</span>
 					</div>
 															<div class="company">
 						<span >
-							ABC Inc.						</span>
+							Nice Park, Devoke						</span>
 					</div>
 															<div class="single-post-text">
 						<div >
-							<p>Optimize your website and apps performance using latest technology.</p>						</div>
+							<p>Maintained the Mother Network, Handled Malfunctions &amp; Other Electronics.</p>						</div>
 					</div>
 									</div>
 							</div>
@@ -970,67 +823,76 @@ img.emoji {
 			</div>
 			
 						<div class="resume-items">
+								<div class="resume-item border-line-h active">
+										<div class="image">
+						<img src="" alt="" />
+					</div>
+															<div class="date">
+						<span >
+							2022 - 						</span>
+					</div>
+															<div class="name">
+						<span >
+							Analytics &amp; Data Science						</span>
+					</div>
+															<div class="company">
+						<span >
+							Masai School						</span>
+					</div>
+														</div>
 								<div class="resume-item border-line-h ">
 										<div class="image">
 						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_1.png" alt="" />
 					</div>
 															<div class="date">
 						<span >
-							2006 - 2008						</span>
+							2020 - 2021						</span>
 					</div>
 															<div class="name">
 						<span >
-							Art University						</span>
+							FTCP						</span>
 					</div>
 															<div class="company">
 						<span >
-							New York						</span>
+							PBSSD | NSDC						</span>
 					</div>
-															<div class="single-post-text">
-						<div >
-							<p>Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri</p>						</div>
-					</div>
-									</div>
+														</div>
 								<div class="resume-item border-line-h ">
 										<div class="image">
 						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_1.png" alt="" />
 					</div>
 															<div class="date">
 						<span >
-							2005 - 2006						</span>
+							2018 - 2021						</span>
 					</div>
 															<div class="name">
 						<span >
-							Programming Course						</span>
+							B.Sc. in Bio-Chemistry						</span>
 					</div>
 															<div class="company">
 						<span >
-							Paris						</span>
+							Rishi Bankim Chandra College, Naihati						</span>
 					</div>
-															<div class="single-post-text">
-						<div >
-							<p>Coursework - Git, WordPress, Javascript, iOS, Android.</p>						</div>
-					</div>
-									</div>
+														</div>
 								<div class="resume-item border-line-h ">
 										<div class="image">
-						<img src="https://ryancv-demo.bslthemes.com/wp-content/uploads/2020/04/client_1.png" alt="" />
+						<img src="" alt="" />
 					</div>
 															<div class="date">
 						<span >
-							2004 - 2005						</span>
+							2017 - 2018						</span>
 					</div>
 															<div class="name">
 						<span >
-							Web Design Course						</span>
+							 Advanced Diploma in Computer Application						</span>
 					</div>
 															<div class="company">
 						<span >
-							London						</span>
+							Compaq Computer Centre						</span>
 					</div>
 															<div class="single-post-text">
 						<div >
-							<p>Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript</p>						</div>
+							<p>MS-Office, HTML &amp; CSS, CMD</p>						</div>
 					</div>
 									</div>
 							</div>
@@ -1091,9 +953,9 @@ img.emoji {
 		<div class="skills-item">
 			<div class="skills-list percent">
 								<div class="skill-title border-line-h">
-										<div class="icon"><i class="fa fa-paint-brush"></i></div>
+										<div class="icon"><i class="fa fa-laptop"></i></div>
 										<div class="name">
-						<span >Design</span>
+						<span >Tech related</span>
 					</div>
 				</div>
 				
@@ -1104,34 +966,25 @@ img.emoji {
 								Web Design							</span>
 						</div>
 												<div class="progress ">
-							<div class="percentage" style="width:90%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Write Music							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:65%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Photoshop							</span>
-						</div>
-												<div class="progress ">
 							<div class="percentage" style="width:75%;"></div>
 													</div>
 					</li>
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
-								Graphic Design							</span>
+								Computer Hardware &amp; Networking							</span>
 						</div>
 												<div class="progress ">
-							<div class="percentage" style="width:85%;"></div>
+							<div class="percentage" style="width:61%;"></div>
+													</div>
+					</li>
+										<li class="border-line-h"> 
+												<div class="name">
+							<span >
+								Linux							</span>
+						</div>
+												<div class="progress ">
+							<div class="percentage" style="width:21%;"></div>
 													</div>
 					</li>
 									</ul>
@@ -1149,7 +1002,7 @@ img.emoji {
 					
 		<!-- skill item -->
 		<div class="skills-item">
-			<div class="skills-list dotted">
+			<div class="skills-list percent">
 								<div class="skill-title border-line-h">
 										<div class="icon"><i class="fa fa-flag"></i></div>
 										<div class="name">
@@ -1161,37 +1014,28 @@ img.emoji {
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
+								Bengali							</span>
+						</div>
+												<div class="progress ">
+							<div class="percentage" style="width:100%;"></div>
+													</div>
+					</li>
+										<li class="border-line-h"> 
+												<div class="name">
+							<span >
 								English							</span>
 						</div>
 												<div class="progress ">
-							<div class="percentage" style="width:90%;"></div>
+							<div class="percentage" style="width:75%;"></div>
 													</div>
 					</li>
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
-								German							</span>
+								Hindi							</span>
 						</div>
 												<div class="progress ">
-							<div class="percentage" style="width:60%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Italian							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:30%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								French							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:70%;"></div>
+							<div class="percentage" style="width:51%;"></div>
 													</div>
 					</li>
 									</ul>
@@ -1234,29 +1078,20 @@ img.emoji {
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
-								PHP / MYSQL							</span>
-						</div>
-												<div class="progress p75">
-							<div class="percentage" style="width:75%;"></div>
-							<span>75%</span>						</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Angular / JavaScript							</span>
-						</div>
-												<div class="progress p85">
-							<div class="percentage" style="width:85%;"></div>
-							<span>85%</span>						</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
 								HTML / CSS							</span>
 						</div>
-												<div class="progress p95">
-							<div class="percentage" style="width:95%;"></div>
-							<span>95%</span>						</div>
+												<div class="progress p81">
+							<div class="percentage" style="width:81%;"></div>
+							<span>81%</span>						</div>
+					</li>
+										<li class="border-line-h"> 
+												<div class="name">
+							<span >
+								Python							</span>
+						</div>
+												<div class="progress p65">
+							<div class="percentage" style="width:65%;"></div>
+							<span>65%</span>						</div>
 					</li>
 									</ul>
 							</div>
@@ -1285,6 +1120,24 @@ img.emoji {
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
+								Networking							</span>
+						</div>
+												<div class="progress ">
+							<div class="percentage" style="width:99%;"></div>
+													</div>
+					</li>
+										<li class="border-line-h"> 
+												<div class="name">
+							<span >
+								Computer Hardware							</span>
+						</div>
+												<div class="progress ">
+							<div class="percentage" style="width:99%;"></div>
+													</div>
+					</li>
+										<li class="border-line-h"> 
+												<div class="name">
+							<span >
 								Website hosting							</span>
 						</div>
 												<div class="progress ">
@@ -1294,28 +1147,10 @@ img.emoji {
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
-								iOS and android apps							</span>
+								Customer Satisfaction							</span>
 						</div>
 												<div class="progress ">
-							<div class="percentage" style="width:%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Create logo design							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Design for print							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:%;"></div>
+							<div class="percentage" style="width:99%;"></div>
 													</div>
 					</li>
 										<li class="border-line-h"> 
@@ -1330,28 +1165,19 @@ img.emoji {
 										<li class="border-line-h"> 
 												<div class="name">
 							<span >
-								Advertising services include							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
-								Graphics and animations							</span>
-						</div>
-												<div class="progress ">
-							<div class="percentage" style="width:%;"></div>
-													</div>
-					</li>
-										<li class="border-line-h"> 
-												<div class="name">
-							<span >
 								Search engine marketing							</span>
 						</div>
 												<div class="progress ">
 							<div class="percentage" style="width:%;"></div>
+													</div>
+					</li>
+										<li class="border-line-h"> 
+												<div class="name">
+							<span >
+								Team Management							</span>
+						</div>
+												<div class="progress ">
+							<div class="percentage" style="width:80%;"></div>
 													</div>
 					</li>
 									</ul>
@@ -1373,114 +1199,6 @@ img.emoji {
 					<div class="elementor-spacer">
 			<div class="elementor-spacer-inner"></div>
 		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-af3cd27 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="af3cd27" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-12a611e" data-id="12a611e" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-484e8be elementor-widget elementor-widget-ryancv-testimonials" data-id="484e8be" data-element_type="widget" data-widget_type="ryancv-testimonials.default">
-				<div class="elementor-widget-container">
-			
-		<!-- Testimonials -->
-
-		<div class="content testimonials">
-
-						<!-- title -->
-			<div class="title">
-				<span >Testimonials</span>
-			</div>
-			
-						<!-- content -->
-			<div class="row testimonial-items">
-
-				<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-					<div class="revs-carousel">
-						<div class="owl-carousel" data-autoplay="0" data-autoplaytime="5000" data-dots="1" data-loop="0" data-rewind="0">
-														<div class="item">
-								<div class="revs-item">
-																		<div class="text">
-										<div >
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.										</div>
-									</div>
-																		<div class="user">
-																				<div class="img">
-											<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/rev1-92x92.jpg" alt="Helen Floyd" />
-										</div>
-																				<div class="info">
-																						<div class="name">
-												<span >
-													Helen Floyd												</span>
-											</div>
-																																	<div class="company">
-												<span >
-													Art Director												</span>
-											</div>
-																					</div>
-										<div class="clear"></div>
-									</div>
-								</div>
-							</div>
-														<div class="item">
-								<div class="revs-item">
-																		<div class="text">
-										<div >
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.										</div>
-									</div>
-																		<div class="user">
-																				<div class="img">
-											<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/bg-1-92x92.jpg" alt="Robert Chase" />
-										</div>
-																				<div class="info">
-																						<div class="name">
-												<span >
-													Robert Chase												</span>
-											</div>
-																																	<div class="company">
-												<span >
-													CEO												</span>
-											</div>
-																					</div>
-										<div class="clear"></div>
-									</div>
-								</div>
-							</div>
-														<div class="item">
-								<div class="revs-item">
-																		<div class="text">
-										<div >
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.										</div>
-									</div>
-																		<div class="user">
-																				<div class="img">
-											<img src="http://localhost:81/wordpress/wp-content/uploads/2020/04/work8-92x92.jpg" alt="John Doe" />
-										</div>
-																				<div class="info">
-																						<div class="name">
-												<span >
-													John Doe												</span>
-											</div>
-																																	<div class="company">
-												<span >
-													Art Director												</span>
-											</div>
-																					</div>
-										<div class="clear"></div>
-									</div>
-								</div>
-							</div>
-													</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-			</div>
-					</div>
-
 				</div>
 				</div>
 					</div>
@@ -1520,6 +1238,115 @@ img.emoji {
 			
 		</div>
 
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b9971b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b9971b2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5114cdf" data-id="5114cdf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7132473 elementor-widget elementor-widget-ryancv-resume" data-id="7132473" data-element_type="widget" data-widget_type="ryancv-resume.default">
+				<div class="elementor-widget-container">
+					
+		<!-- resume item -->
+		<div class="resume-item">
+						<div class="resume-title border-line-h">
+								<div class="icon"><i class="fa fa-product-hunt"></i></div>
+								<div class="name">
+					<span >Projects</span>
+				</div>
+			</div>
+			
+						<div class="resume-items">
+								<div class="resume-item border-line-h active">
+										<div class="image">
+						<img src="http://localhost:81/wordpress/wp-content/uploads/2022/02/icone-wikipedia-bureaucrat-bot.png" alt="" />
+					</div>
+															<div class="date">
+						<span >
+							2020 - Active						</span>
+					</div>
+															<div class="name">
+						<span >
+							Sunder						</span>
+					</div>
+															<div class="company">
+						<span >
+							Discord Bot.						</span>
+					</div>
+															<div class="single-post-text">
+						<div >
+							<p>A Social Media Chat Bot made using Python.</p><p><a href="http://repl.it./" target="_blank" rel="noopener">source code&gt;&gt;</a></p>						</div>
+					</div>
+									</div>
+							</div>
+					</div>
+		
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cc918d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cc918d1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-05923a3" data-id="05923a3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9deff4a elementor-widget elementor-widget-ryancv-resume" data-id="9deff4a" data-element_type="widget" data-widget_type="ryancv-resume.default">
+				<div class="elementor-widget-container">
+					
+		<!-- resume item -->
+		<div class="resume-item">
+						<div class="resume-title border-line-h">
+								<div class="icon"><i class="fa fa-arrow-circle-o-up"></i></div>
+								<div class="name">
+					<span >Start-Ups</span>
+				</div>
+			</div>
+			
+						<div class="resume-items">
+								<div class="resume-item border-line-h active">
+										<div class="image">
+						<img src="" alt="" />
+					</div>
+															<div class="date">
+						<span >
+							2021 - Active						</span>
+					</div>
+															<div class="name">
+						<span >
+							Fairhosting.co.in						</span>
+					</div>
+															<div class="company">
+						<span >
+							Website Solutions						</span>
+					</div>
+															<div class="single-post-text">
+						<div >
+							<p>Web Hosting Service Provider. <a href="http://fairhosting.co.in" target="_blank" rel="noopener">visit&gt;&gt;</a></p>						</div>
+					</div>
+									</div>
+							</div>
+					</div>
+		
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3bd585a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3bd585a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7d4c363" data-id="7d4c363" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9a7347b elementor-widget elementor-widget-spacer" data-id="9a7347b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
 				</div>
 				</div>
 					</div>
@@ -1617,7 +1444,8 @@ img.emoji {
 	</div>
 
 	<link rel='stylesheet' id='ryancv-dark-css'  href='http://localhost:81/wordpress/wp-content/themes/ryancv/assets/css/dark.css?ver=5.8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-41-css'  href='http://localhost:81/wordpress/wp-content/uploads/elementor/css/post-41.css?ver=1637131255' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-41-css'  href='http://localhost:81/wordpress/wp-content/uploads/elementor/css/post-41.css?ver=1644824648' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-46-css'  href='http://localhost:81/wordpress/wp-content/uploads/elementor/css/post-46.css?ver=1644826162' type='text/css' media='all' />
 <link rel='stylesheet' id='e-animations-css'  href='http://localhost:81/wordpress/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='http://localhost:81/wordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost:81/wordpress/wp-content/plugins/ryancv-plugin/elementor/assets/js/front-end-widgets.js?ver=5.8.2' id='ryancv-plugin-frontend-widgets-scripts-js'></script>
